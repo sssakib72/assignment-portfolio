@@ -60,7 +60,7 @@ header{
 /* poster-edit */
 
 .poster{
-    height: 1000px;
+    height: 1150px;
     width: 1250px;
     background-color: #f7f8fa;
     border-radius: 8px;
@@ -77,4 +77,59 @@ header{
 
 .poster1{
     display: flex;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 100px;
+}
+
+.poster-heading{
+    color: #2b2b2c;
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.poster-essay{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    color: #555557;
+}
+
+.poster-talk{
+    
+    width: 600px;
+    margin: 0 auto; 
+}
+
+.poster2{
+    display: flex;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 100px;
+}
+
+.poster3{
+    display: flex;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+
+.lorem-button{
+    padding: 10px 30px;
+    opacity: 0.7;
+    border: 1px solid;
+    background-color: #f7f8fa;
+}
+
+.card-heading{
+    color: #2b2b2c;
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card-essay{
+    color: #808085;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 7300;
 }
