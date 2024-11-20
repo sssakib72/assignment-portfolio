@@ -4,6 +4,8 @@
     margin: 0 auto;
 }
 
+/* banner-edit */
+
 header{
     margin-top: 50px;
     background-image: url(https://papers.co/wallpaper/papers.co-az75-apple-wwdc-developer-white-illustration-art-25-wallpaper.jpg);
@@ -12,8 +14,9 @@ header{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     border-radius: 16px;
+    margin-bottom: 100px;
 }
 
 .banner{
@@ -29,9 +32,49 @@ header{
 }
 
 .contact{
-    margin-top: 110px;
+    
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    background-color: #0D1321;
+    padding: 20px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .headline{
     font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+.description{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 200px;
+    color: #0D1321;
+}
+
+/* poster-edit */
+
+.poster{
+    height: 1000px;
+    width: 1250px;
+    background-color: #f7f8fa;
+    border-radius: 8px;
+    padding: 80px 100px;
+}
+.poster-card{
+    height: 1300px;
+    width: 1200px;
+}
+#poster-card{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.poster1{
+    display: flex;
 }
