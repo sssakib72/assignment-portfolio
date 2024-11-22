@@ -60,7 +60,7 @@ header{
 /* poster-edit */
 
 .poster{
-    height: 1150px;
+    height: 1650px;
     width: 1250px;
     background-color: #f7f8fa;
     border-radius: 8px;
@@ -72,14 +72,9 @@ header{
 }
 #poster-card{
     text-align: center;
-    margin-bottom: 48px;
-}
-
-.poster1{
-    display: flex;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     margin-bottom: 100px;
 }
+
 
 .poster-heading{
     color: #2b2b2c;
@@ -100,15 +95,27 @@ header{
     margin: 0 auto; 
 }
 
+.poster1{
+    display: flex;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 200px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
 .poster2{
     display: flex;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    padding: 40px;
+    border-radius: 10px;
 }
 
 .poster3{
     display: flex;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 40px;
+    border-radius: 10px;
     
 }
 
@@ -133,3 +140,30 @@ header{
     font-size: 16px;
     font-weight: 7300;
 }
+
+/* tutorial */
+
+.tutorial{
+    padding: 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    height: 720px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-title{
+    font-size: 48px;
+    font-family: Azeret Mono;
+}
+
+.intro-description{
+    color: #808085;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 7300;
+}
+
