@@ -219,3 +219,9 @@ header{
     text-decoration: underline;
     font-size: larger;
 }
+
+.flex{
+    display: flex;
+    
+    align-items: center;
+}
