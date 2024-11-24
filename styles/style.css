@@ -159,6 +159,9 @@ header{
     font-size: 48px;
     font-family: Azeret Mono;
 }
+.border{
+    border-radius: 16px;
+}
 
 .intro-description{
     color: #808085;
