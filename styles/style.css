@@ -10,7 +10,7 @@ header{
     margin-top: 50px;
     background-image: url(https://papers.co/wallpaper/papers.co-az75-apple-wwdc-developer-white-illustration-art-25-wallpaper.jpg);
     height: 700px;
-    width: 1920px;
+    width: 1903px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ header{
 /* skill-container */
 
 .container{
-    height: 2220px;
+    height: 1250px;
     width: 1080px;
     margin: 0 auto;
 }
@@ -225,6 +225,93 @@ header{
 
 .flex{
     display: flex;
-    
+    gap: 30px;
+    padding: 25px;
+    border: #acabab solid 0.5px;
+    border-radius: 10px;
+    height: 90px;
+    width: 950px;
+    text-align: left;   
+}
+
+.two-intro{
+    text-align: center;
+    margin: 90px 0 50px 0;
+}
+.target-intro{
+    font-family: Azeret Mono;
+}
+.target-para{
+    font-family: Azeret Mono;
+    color: #808085;
+}
+.skill-two{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+/* support-session */
+.support-container{
+    text-align: center;
+    height: 200px;
+    width: 820px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    margin-bottom: 150px; 
+}
+
+.support-title{
+    font-size: 30px;
+    color: white;
+    padding: 10px 0 0 0;
+    font-family: Azeret Mono;
+    margin: 0 0 30px 0;
+}
+.support{
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 50;
+    font-family: Azeret Mono;
+    margin: 0 0 30px 0;
+}
+.text-support{
+    width: 450px;
+    height: 40px;
+    padding: 0 0 0 45px;
+    border-radius: 5px;
+    border: none;
+    font-family: Azeret Mono;
+}
+.support-button{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    font-family: Azeret Mono;
+    color: #0D1321;
+    font-weight: 700;
+}
+
+footer{
+    height: 100px;
+    width: 1903px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffeb;
     align-items: center;
+}
+
+.icons{
+    padding: 0 0 0 800px;
+}
+#footer-head{
+    font-family: Azeret Mono;
+}
+.margin{
+    margin-right: 40px;
 }
